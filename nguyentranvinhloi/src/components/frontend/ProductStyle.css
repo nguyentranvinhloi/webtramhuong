@@ -1,0 +1,53 @@
+
+.single_product_item{
+    background-color: white;
+    margin: 0 auto;
+    padding: auto;
+    text-align: center;  
+}
+.content{
+
+    max-height: fit-content;
+    text-align: center;
+    display: block;
+    border-radius: 20px;
+    /* border: 1px solid black; */
+
+}
+
+.product-name{
+    max-height: fit-content;
+    color: hwb(1.5708rad 20% 10% / 0.7);
+    text-decoration: none;
+
+}
+
+.product-name:hover{
+    color: hwb(1.5708rad 20% 10% / 0.7);
+    opacity:  50%;
+}
+.pricesale{
+    max-height: fit-content;
+ 
+    color: grey;
+}
+.price{
+    max-height: fit-content;
+
+    color: grey;
+    text-decoration: line-through;
+    
+}
+
+.button{
+    padding:5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    border: none;
+}
+.button:hover{
+    background-color: turquoise;
+    color: aliceblue;
+}
